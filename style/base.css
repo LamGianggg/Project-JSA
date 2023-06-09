@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Poppins:ital,wght@1,600&display=swap');
+
+:root{
+    --primary-color: #f5f0ac;
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+/* Responsive */
+.grid{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* BEN: Block Element Modifier */
+.grid_full-width{
+    width: 100%;
+}
+
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+#destinations {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Text */
+.grid_column-1{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 8.333%;
+}
+.grid_column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.66667%;
+}
+
+.grid_column-3{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+}
+
+.grid_column-4 {
+    padding-left: 80px;
+    width: 33.333333%;
+}
+
+.grid_column-5 {
+    width: 41.66667%;
+}
+
+.grid_column-7{
+    width: 58.33333%;
+}
+
+.grid_column-7-10{
+    width: 70%;
+}
+
+.grid_column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
+
+.hi {
+    width: 100%;
+    background-color: rgb(175, 241, 175);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hi .header-title {
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid_column-6 {
+    width: 50%;
+}
+
+.header-menu {
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-menu:hover {
+    border-bottom: 4px solid #000;
+}
+
+
+
+
+
